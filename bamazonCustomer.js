@@ -33,7 +33,7 @@ function validate(value) {
 }
 
 // function to prompt inquirer questions and purchase from bamazon
-function buyItems() {
+function buyItems () {
 
 	// which item id & how many
 	inquirer.prompt([
@@ -121,7 +121,7 @@ function listItems () {
 }
 
 // bamazon will start app
-function bamazon() {
+function bamazon () {
 
 	// lists the items
 	listItems()
