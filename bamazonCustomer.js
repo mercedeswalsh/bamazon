@@ -28,7 +28,7 @@ function validate(value) {
 	if (integer && (sign === 1)) {
 		return true
 	} else {
-		return 'enter whole number please'
+		return 'enter whole positive number please'
 	}
 }
 
